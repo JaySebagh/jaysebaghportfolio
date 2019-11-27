@@ -11,6 +11,14 @@ function App() {
           <p className="Code">&lt;<span className="Div-color">p</span>&gt;Full-Stack Web & Computer Science Software Engineer&lt;<span className="Div-color">&frasl;p</span>&gt;</p>
           <p className="Code">&lt;<span className="Div-color">&frasl;div</span>&gt;</p>
         </div>
+        <div className="Info-container">
+          <ul className="Info-ul">
+            <li className="Info-li">Intro</li>
+            <li className="Info-li">Skills</li>
+            <li className="Info-li">Projects</li>
+            <li className="Info-li">Contact</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

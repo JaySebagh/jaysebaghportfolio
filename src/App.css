@@ -6,6 +6,7 @@
 
 .App {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -15,7 +16,7 @@
   margin: 0 0 1rem 0;
   border-bottom: 0.1rem solid #ffffff;
   border-top: 0.1rem solid #ffffff;
-  width: 400px;
+  width: 550px;
   padding: 20px 0;
 }
 
@@ -42,4 +43,25 @@
 .Class-color {
   color: #c5e400;
   font-weight: bold;
+}
+
+.Info-ul {
+  display: flex;
+  padding: 0;
+}
+
+.Info-li {
+  color: #ffffff;
+  min-width: 4.5rem;
+  height: 2.75rem;
+  line-height: 2.75rem;
+  padding: 0 1.25rem 0 1.45rem;
+  letter-spacing: 0.2rem;
+  font-size: 0.8rem;
+  list-style-type: none;
+  border: 0.01rem solid #ffffff;
+}
+
+.Info-li:hover {
+  background-color: rgba(255, 255, 255, 0.075)
 }
