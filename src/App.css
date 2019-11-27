@@ -65,3 +65,10 @@
 .Info-li:hover {
   background-color: rgba(255, 255, 255, 0.075)
 }
+
+.Pfp {
+  border-radius: 50%;
+  width: 152px;
+  height: 152px;
+  margin-bottom: 30px;
+}
