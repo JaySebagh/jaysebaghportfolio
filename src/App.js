@@ -4,21 +4,21 @@ import Pfp from './images/pfp.jpeg';
 
 function App() {
   return (
-    <div className="App-container">
-      <div className="App">
-        <img className="Pfp" src={Pfp}/>
-        <div className="Slogan">
-          <h1 className="Name">JAY SEBAGH</h1>
-          <p className="Code">&lt;<span className="Div-color">div </span><span className="Class-color">Class</span>="software-engineer"&gt;</p>
-          <p className="Code">&lt;<span className="Div-color">p</span>&gt;Full-Stack Web & CS Software Engineer&lt;<span className="Div-color">&frasl;p</span>&gt;</p>
-          <p className="Code">&lt;<span className="Div-color">&frasl;div</span>&gt;</p>
+    <div className="app-container">
+      <div className="app">
+        <img className="pfp" src={Pfp}/>
+        <div className="slogan">
+          <h1 className="name">JEAN-FRANCOIS SEBAGH</h1>
+          <p className="code">&lt;<span className="div-color">div </span><span className="class-color">class</span>="software-engineer"&gt;</p>
+          <p className="code">&lt;<span className="div-color">p</span>&gt;Full-Stack Web & CS Software Engineer&lt;<span className="div-color">&frasl;p</span>&gt;</p>
+          <p className="code">&lt;<span className="div-color">&frasl;div</span>&gt;</p>
         </div>
-        <div className="Info-container">
-          <ul className="Info-ul">
-            <li className="Info-li">Intro</li>
-            <li className="Info-li">Skills</li>
-            <li className="Info-li">Projects</li>
-            <li className="Info-li">Contact</li>
+        <div className="info-container">
+          <ul className="info-ul">
+            <li className="info-li">Intro</li>
+            <li className="info-li">Skills</li>
+            <li className="info-li">Projects</li>
+            <li className="info-li">Contact</li>
           </ul>
         </div>
       </div>

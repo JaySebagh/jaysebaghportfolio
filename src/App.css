@@ -1,10 +1,10 @@
-.App-container {
+.app-container {
   text-align: center;
   height: 100%;
   width: 100%;
 }
 
-.App {
+.app {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,7 +12,7 @@
   height: 100vh;
 }
 
-.Slogan {
+.slogan {
   margin: 0 0 1rem 0;
   border-bottom: 0.1rem solid #ffffff;
   border-top: 0.1rem solid #ffffff;
@@ -20,37 +20,38 @@
   padding: 20px 0;
 }
 
-.Name {
-  font-size: 2.25rem;
+.name {
+  /* font-size: 2rem; */
+  font-size: 1.6rem;
   line-height: 1.3;
   letter-spacing: 0.5rem;
   color: #ffffff;
   font-weight: 600;
 }
 
-.Code {
+.code {
   color: #ffffff;
   letter-spacing: 0.2rem;
   font-size: 0.8rem;
   line-height: 2;
 }
 
-.Div-color {
+.div-color {
   color: #e12977;
   font-weight: bold;
 }
 
-.Class-color {
+.class-color {
   color: #c5e400;
   font-weight: bold;
 }
 
-.Info-ul {
+.info-ul {
   display: flex;
   padding: 0;
 }
 
-.Info-li {
+.info-li {
   color: #ffffff;
   min-width: 4.5rem;
   height: 2.75rem;
@@ -62,11 +63,11 @@
   border: 0.01rem solid #ffffff;
 }
 
-.Info-li:hover {
+.info-li:hover {
   background-color: rgba(255, 255, 255, 0.075)
 }
 
-.Pfp {
+.pfp {
   border-radius: 50%;
   width: 152px;
   height: 152px;
