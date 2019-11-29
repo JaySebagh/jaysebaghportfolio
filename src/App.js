@@ -7,29 +7,29 @@ import { ModalProvider, ModalConsumer } from './ModalContext';
 import ModalRoot from './ModalRoot';
 
 const Intro = ({ onRequestClose, ...otherProps }) => (
-  <Modal isOpen onRequestClose={onRequestClose} {...otherProps} className="modal-style">
-    <button onClick={onRequestClose}>X</button>
+  <Modal style={{overlay: {backgroundColor: 'none'}}} isOpen onRequestClose={onRequestClose} {...otherProps} className="modal-style">
+    <button onClick={onRequestClose} className="modal-close">&times;</button>
     <div>one</div>
   </Modal>
 );
 
 const Skills = ({ onRequestClose, foo, ...otherProps }) => (
-  <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
-    <button onClick={onRequestClose}>X</button>
+  <Modal style={{overlay: {backgroundColor: 'none'}}} isOpen onRequestClose={onRequestClose} {...otherProps} className="modal-style">
+    <button onClick={onRequestClose} className="modal-close">&times;</button>
     <div>two</div>
   </Modal>
 );
 
 const Projects = ({ onRequestClose, foo, ...otherProps }) => (
-  <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
-    <button onClick={onRequestClose}>X</button>
+  <Modal style={{overlay: {backgroundColor: 'none'}}} isOpen onRequestClose={onRequestClose} {...otherProps} className="modal-style">
+    <button onClick={onRequestClose} className="modal-close">&times;</button>
     <div>three</div>
   </Modal>
 );
 
 const Contact = ({ onRequestClose, foo, ...otherProps }) => (
-  <Modal isOpen onRequestClose={onRequestClose} {...otherProps}>
-    <button onClick={onRequestClose}>X</button>
+  <Modal style={{overlay: {backgroundColor: 'none'}}} isOpen onRequestClose={onRequestClose} {...otherProps} className="modal-style">
+    <button onClick={onRequestClose} className="modal-close">&times;</button>
     <div>four</div>
   </Modal>
 );

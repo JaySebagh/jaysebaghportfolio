@@ -81,7 +81,35 @@
 }
 
 .modal-style {
-  background-color: #333333;
-  width: 600px;
+  background-color: rgba(27, 31, 34, 1);
+  padding: 20px;
+  color: #858689;
+  width: 570px;
   height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+}
+
+.modal-close {
+  border: none;
+  background-color: rgba(27, 31, 34, 1);
+  color: #ffffff;
+  border-radius: 100%;
+  font-size: 3.25rem;
+  font-weight: 100;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 1000ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+  opacity: 0;
 }
