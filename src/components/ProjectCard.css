@@ -1,0 +1,29 @@
+.project-title {
+    display: flex;
+}
+
+.project-name {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin: 0;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #87cefa;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 1.3rem;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.project-preview {
+    width: 570px;
+    height: 275px;
+    margin-bottom: 20px;
+}

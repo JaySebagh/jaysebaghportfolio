@@ -1,22 +1,23 @@
 import React, { Fragment } from 'react';
 import './App.css';
 import Pfp from './images/pfp.jpeg';
-import IntroImg from './images/intro.jpg'
-import SkillsImg from './images/skills.jpg'
-import ProjectsImg from './images/projects.jpg'
-
+import IntroImg from './images/intro.jpg';
+import SkillsImg from './images/skills.jpg';
+import ProjectsImg from './images/projects.jpg';
 import Modal from 'react-modal';
 import { ModalProvider, ModalConsumer } from './ModalContext';
 import ModalRoot from './ModalRoot';
+import ProjectCard from './components/ProjectCard';
+import projectsData from './projectsData';
 
 const Intro = ({ onRequestClose, ...otherProps }) => (
   <Modal style={{overlay: {backgroundColor: 'none'}}} isOpen onRequestClose={onRequestClose} {...otherProps} className="modal-style">
     <button onClick={onRequestClose} className="modal-close">&times;</button><p className="title">INTRO</p>
     <div>
       <img src={IntroImg} alt="Intro" className="responsive-image"/>
-      <p>Full-Stack Software Engineer who is passionate about creating applications using the latest technologies. Learning new things and expanding knowledge about coding.</p>
+      <p>Full-Stack Software Engineer who is passionate about creating applications using the latest technologies, learning new things, and expanding knowledge about coding.</p>
 
-      <p>Seeking work opportunities with knowledgeable, friendly, and collaborative team environment.</p>
+      <p>Seeking work opportunities with a knowledgeable, friendly, and collaborative team environment.</p>
     </div>
   </Modal>
 );
@@ -57,7 +58,7 @@ const Projects = ({ onRequestClose, foo, ...otherProps }) => (
     <button onClick={onRequestClose} className="modal-close">&times;</button><p className="title">PROJECTS</p>
     <div>
       <img src={ProjectsImg} alt="Projects" className="responsive-image"/>
-      
+      {projectsData.map(data => {return <ProjectCard data={data} />})}
     </div>
   </Modal>
 );

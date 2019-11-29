@@ -90,7 +90,21 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) !important;
-  overflow: scroll;
+  overflow-y: auto;
+}
+
+.modal-style::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.modal-style::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+.modal-style::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid #333333;
+  background-color: #4d5153;
 }
 
 .msc {
@@ -170,6 +184,7 @@
 
 .contact-margin {
   margin-left: 200px;
+  margin-bottom: 30px;
 }
 
 .li-no-indent {
