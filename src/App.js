@@ -34,6 +34,10 @@ const Contact = ({ onRequestClose, foo, ...otherProps }) => (
   </Modal>
 );
 
+const year = () => {
+  return new Date().getFullYear()
+}
+
 function App() {
   return (
     <ModalProvider>
@@ -61,6 +65,7 @@ function App() {
               )}
             </ModalConsumer>
           </div>
+          <p className="footer">&copy;{year()} JEAN-FRANCOIS SEBAGH</p>
         </div>
       </div>
     </ModalProvider>

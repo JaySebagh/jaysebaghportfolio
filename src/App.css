@@ -113,3 +113,14 @@
 .ReactModal__Overlay--before-close{
   opacity: 0;
 }
+
+.footer {
+  color: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  right: 0;
+  letter-spacing: 0.2rem;
+  font-size: 0.6rem;
+  opacity: 0.35;
+}
