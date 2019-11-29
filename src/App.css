@@ -83,13 +83,18 @@
 .modal-style {
   background-color: rgba(27, 31, 34, 1);
   padding: 20px;
-  color: #858689;
+  color: #eeeeee;
   width: 570px;
-  height: 600px;
+  height: 564px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) !important;
+  overflow: scroll;
+}
+
+.msc {
+  height: fit-content;
 }
 
 .modal-close {
@@ -123,4 +128,51 @@
   letter-spacing: 0.2rem;
   font-size: 0.6rem;
   opacity: 0.35;
+}
+
+.responsive-image {
+  width: 570px;
+  height: 186px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  letter-spacing: 0.5rem;
+  color: #ffffff;
+  font-weight: 600;
+  margin-left: 5px;
+  border-bottom: 2px solid #ffffff;
+  width: fit-content;
+  padding-bottom: 5px;
+}
+
+.contact-info {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+  letter-spacing: 0.2rem;
+  line-height: 5.0;
+}
+
+.contact {
+  list-style-type: none;
+}
+
+.center-contact {
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.contact-margin {
+  margin-left: 200px;
+}
+
+.li-no-indent {
+  margin: 0;
+  padding: 0;
 }
