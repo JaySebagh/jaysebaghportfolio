@@ -5,10 +5,12 @@ const ProjectCard = (props) => {
     return (
         <div>
             <div className="project-title">
-                <h1 className="project-name">{props.data.name} - </h1>
-                <a rel="noopener noreferrer" href={props.data.repo} className="project-link" target="_blank">Repo</a>
-                <div className="project-name">-</div>
-                <a rel="noopener noreferrer" href={props.data.demo} className="project-link" target="_blank">Demo</a>
+                <h1 className="project-name">{props.data.name}: </h1>
+                <div className="responsive-spacing">
+                    <a rel="noopener noreferrer" href={props.data.repo} className="project-link" target="_blank">Repo</a>
+                    <div className="project-name">-</div>
+                    <a rel="noopener noreferrer" href={props.data.demo} className="project-link" target="_blank">Demo</a>
+                </div>
             </div>
             <p>{props.data.intro}</p>
             <ul>
