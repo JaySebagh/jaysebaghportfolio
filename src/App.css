@@ -61,6 +61,11 @@
   font-size: 0.8rem;
   list-style-type: none;
   border: 0.01rem solid #ffffff;
+  cursor: pointer;
+}
+
+.link-contact {
+  text-decoration: none;
 }
 
 .info-li:hover {
