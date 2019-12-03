@@ -231,6 +231,11 @@
     height: 100px;
     margin-bottom: 15px;
   }
+  .slogan-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 
