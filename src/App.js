@@ -84,43 +84,38 @@ const year = () => {
   return new Date().getFullYear()
 }
 
-class App extends React.Component {
-  componentDidMount = () => {
-    document.title = 'Sebagh\'s Portfolio';
-  }
-  render(){
-    return (
-      <ModalProvider>
-        <div className="app-container">
-          <div className="app">
-            <a rel="noopener noreferrer" className="link-contact" href="https://linkedin.com/in/jean-francois-sebagh/" target="_blank"><img className="pfp" alt="Profile Pic" src={Pfp}/></a>
-            <div className="slogan">
-              <a rel="noopener noreferrer" className="link-contact" href={"https://drive.google.com/file/d/1mQVWU_eqmBXeopVZ8EUZGYwOMFyT4K2Y/view"} target="_blank"><h1 className="name">JEAN-FRANCOIS SEBAGH</h1></a>
-              <p className="code">&lt;<span className="div-color">div </span><span className="class-color">class</span>="software-engineer"&gt;</p>
-              <p className="code">&lt;<span className="div-color">p</span>&gt;Full-Stack Web & CS Software Engineer&lt;<span className="div-color">&frasl;p</span>&gt;</p>
-              <p className="code">&lt;<span className="div-color">&frasl;div</span>&gt;</p>
-            </div>
-            <div className="modal-container">
-              <ModalRoot />
-              <ModalConsumer>
-                {({ showModal }) => (
-                  <Fragment>
-                    <ul className="info-ul">
-                      <li className="info-li" onClick={() => showModal(Intro)}>Intro</li>
-                      <li className="info-li" onClick={() => showModal(Skills)}>Skills</li>
-                      <li className="info-li" onClick={() => showModal(Projects)}>Projects</li>
-                      <li className="info-li" onClick={() => showModal(Contact)}>Contact</li>
-                    </ul>
-                  </Fragment>
-                )}
-              </ModalConsumer>
-            </div>
-            <p className="footer">&copy;{year()} JEAN-FRANCOIS SEBAGH</p>
+function App() {
+  return (
+    <ModalProvider>
+      <div className="app-container">
+        <div className="app">
+          <a rel="noopener noreferrer" className="link-contact" href="https://linkedin.com/in/jean-francois-sebagh/" target="_blank"><img className="pfp" alt="Profile Pic" src={Pfp}/></a>
+          <div className="slogan">
+            <a rel="noopener noreferrer" className="link-contact" href={"https://drive.google.com/file/d/1mQVWU_eqmBXeopVZ8EUZGYwOMFyT4K2Y/view"} target="_blank"><h1 className="name">JEAN-FRANCOIS SEBAGH</h1></a>
+            <p className="code">&lt;<span className="div-color">div </span><span className="class-color">class</span>="software-engineer"&gt;</p>
+            <p className="code">&lt;<span className="div-color">p</span>&gt;Full-Stack Web & CS Software Engineer&lt;<span className="div-color">&frasl;p</span>&gt;</p>
+            <p className="code">&lt;<span className="div-color">&frasl;div</span>&gt;</p>
           </div>
+          <div className="modal-container">
+            <ModalRoot />
+            <ModalConsumer>
+              {({ showModal }) => (
+                <Fragment>
+                  <ul className="info-ul">
+                    <li className="info-li" onClick={() => showModal(Intro)}>Intro</li>
+                    <li className="info-li" onClick={() => showModal(Skills)}>Skills</li>
+                    <li className="info-li" onClick={() => showModal(Projects)}>Projects</li>
+                    <li className="info-li" onClick={() => showModal(Contact)}>Contact</li>
+                  </ul>
+                </Fragment>
+              )}
+            </ModalConsumer>
+          </div>
+          <p className="footer">&copy;{year()} JEAN-FRANCOIS SEBAGH</p>
         </div>
-      </ModalProvider>
-    );
-  }
+      </div>
+    </ModalProvider>
+  );
 }
 
 export default App;
