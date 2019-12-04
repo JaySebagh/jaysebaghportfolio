@@ -10,7 +10,6 @@ function App() {
     <ModalProvider>
       <div className="app-container">
         <div className="app">
-          {/* THIS IS A TEST */}
           <Slogan />
           <Modals />
           <Footer />
