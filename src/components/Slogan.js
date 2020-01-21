@@ -1,5 +1,5 @@
 import React from 'react';
-import Pfp from '../images/pfp.jpeg';
+import Pfp from '../images/pfp.png';
 import '../App.css';
 
 const Slogan = () => {
