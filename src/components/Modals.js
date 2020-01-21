@@ -15,7 +15,7 @@ const Intro = ({ onRequestClose, ...otherProps }) => (
         <div>
           <img src={IntroImg} alt="Intro" className="responsive-image"/>
           <p>Full-Stack Software Engineer who is passionate about creating applications using the latest technologies, learning new things, and expanding knowledge about coding.</p>
-  
+          <p>Since a young age, my father has introduced me to computers. Ever since then, working in the tech industry has been a dream.</p>
           <p>Seeking work opportunities with a knowledgeable, friendly, and collaborative team environment.</p>
         </div>
       </div>
@@ -46,6 +46,7 @@ const Intro = ({ onRequestClose, ...otherProps }) => (
             <li>Sass</li>
             <li>Node.js</li>
             <li>Jest</li>
+            <l1>Supertest</l1>
             <li>Heroku</li>
             <li>Netlify</li>
             <li>Next.js</li>
