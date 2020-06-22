@@ -3,7 +3,7 @@ import { ModalConsumer } from './ModalContext';
 import ModalRoot from './ModalRoot';
 import IntroImg from '../images/intro.jpg';
 import SkillsImg from '../images/skills.jpg';
-import ProjectsImg from '../images/projects.jpg';
+import ProjectsImg from '../images/projects.png';
 import Modal from 'react-modal';
 import ProjectCard from './ProjectCard';
 import projectsData from '../projectsData';
@@ -31,11 +31,9 @@ const Intro = ({ onRequestClose, ...otherProps }) => (
           <p>Languages:</p>
           <ul>
             <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
             <li>SQL</li>
             <li>Python</li>
-            <li>Django</li>
+            <li>HTML5</li>
           </ul>
   
           <p>Frameworks/Other:</p>
@@ -43,13 +41,18 @@ const Intro = ({ onRequestClose, ...otherProps }) => (
             <li>React</li>
             <li>Redux</li>
             <li>Hooks</li>
-            <li>Sass</li>
             <li>Node.js</li>
+            <li>SASS</li>
+            <li>CSS3</li>
             <li>Jest</li>
-            <l1>Supertest</l1>
+            <li>Supertest</li>
             <li>Heroku</li>
             <li>Netlify</li>
             <li>Next.js</li>
+            <li>Django</li>
+            <li>Emotion</li>
+            <li>Axios</li>
+            <li>Knex</li>
           </ul>
         </div>
       </div>
@@ -78,7 +81,7 @@ const Intro = ({ onRequestClose, ...otherProps }) => (
             <ul className="contact li-no-indent">
               <li><a rel="noopener noreferrer" href="https://github.com/jaysebagh/" target="_blank" className="contact-info"><i class="fab fa-github"></i> GITHUB</a></li>
               <li><a rel="noopener noreferrer" href="https://linkedin.com/in/jean-francois-sebagh/" target="_blank" className="contact-info"><i class="fab fa-linkedin"></i> LINKEDIN</a></li>
-              <li><a rel="noopener noreferrer" href="https://drive.google.com/file/d/17qmJR20ogh2worZG-84FceA85I0JeXlp/view?usp=sharing" target="_blank" className="contact-info"><i class="far fa-file"></i> RESUME</a></li>
+              <li><a rel="noopener noreferrer" href="https://drive.google.com/file/d/1zL4HrAj_xXZvbvIuaQVwTdan82AcakSe/view?usp=sharing" target="_blank" className="contact-info"><i class="far fa-file"></i> RESUME</a></li>
               <li><span className="contact-info"><i class="far fa-envelope"></i> EMAIL: </span>jaysebagh@gmail.com</li>
             </ul>
           </div>

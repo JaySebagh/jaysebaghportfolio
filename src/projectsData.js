@@ -29,15 +29,17 @@ const projectsData = [
     },
     {
         project: 3,
-        name: "Hextech GG (in progress)",
+        name: "Hextech GG",
         repo: "https://github.com/League-Stats",
         demo: "https://hextech.gg/",
         intro: "A comprehensive statistical and match history website for League of Legends players.",
         bullets: [
             "Interacted with Riot Game's official developer API",
-            "Created a user authentication system with private routes, allowing users to save summoner names",
+            "Utilized Hooks to manage state",
+            "Created a Backend endpoint in Python to estimate each player's lanes",
+            "Designed with SASS styling"
         ],
-        stack: "React.js, Node.js, Jest, Hooks, and Redux.",
+        stack: "React.js, Node.js, Hooks, Python, and SASS.",
         preview: "hextechgg"
     },
 ]
