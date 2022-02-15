@@ -17,7 +17,7 @@ const projectsData = [
         project: 2,
         name: "Well-Done",
         repo: "https://github.com/labs15-well-done/frontend",
-        demo: "https://frontend-git-master.welldone.now.sh/",
+        demo: "https://well-done-demo.vercel.app/",
         intro: "A dashboard application to allow an NPO and its clients to monitor current water pump statuses in Cambodia.",
         bullets: [
             "Built a server side rendered React application using Next.js",
