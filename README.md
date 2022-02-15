@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm i`
 
-Installs project depend dependence.
+Installs project dependence.
 
 ### `npm start`
 
